@@ -1,0 +1,401 @@
+/*===========================
+
+CHIEF TABS
+===========================*/
+.my_assign .tabs-section {
+  background: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1px;
+  margin: 0;
+}
+
+.my_assign .tabs-section .active {
+  border-bottom: 4px solid #A89968;
+}
+
+.my_assign .tabs-section .active p {
+  color: #A89968;
+  font-size:14px;
+  margin:0px;
+}
+
+.my_assign .row.tabs-section {
+  height: 44px;
+}
+
+.my_assign .resident-tab a,
+.my_assign .admin-tab a,
+.my_assign .admin-tab.active p,
+.my_assign .resident-tab.active p {
+  width: 100%;
+  display: block;
+  height: 100%;
+  padding: 10px 0px;
+}
+
+.my_assign .resident-tab a:hover, .admin-tab a:hover {
+  background-color: #e4e4e2;
+  text-decoration: none;
+  border-bottom: 4px solid #003b5f;
+}
+
+
+/*===========================
+
+NAVIGATION
+===========================*/
+/* MY ASSIGNMENTS COUNTER */
+li.active a span.icon-assignments {
+  color: #a89968 !important;
+  font-size: 14px !important;
+  font-weight: bold;
+  border-radius: 2px;
+  padding-top: 3px;
+  width: 21px;
+  height: 21px;
+  background-color: #FFF;
+  text-shadow: 0 1px #837443;
+  -webkit-box-shadow: inset 0 1px 0 0px rgba(10,10,10,.6);
+  -moz-box-shadow: inset 0 1px 0 0px rgba(10,10,10,.6);
+  -box-shadow: inset 0 1px 0 0px rgba(10,10,10,.6);
+}
+
+
+/* KNOWLEDGE CENTER DROPDOWN */
+.mobile-knowledge-drop:hover{
+  background-color: #d5d6d2;
+}
+
+ul#acc-menu6, ul#acc-menu5 {
+  background-color: #D5D6D2;
+  padding: 0;
+  -webkit-box-shadow: inset 0px 0px 5px 4px rgba(000,1,000,.1) !important;
+  -moz-box-shadow: inset 0px 0px 5px 4px rgba(000,1,000,.1) !important;
+  box-shadow: inset 0px 0px 5px 4px rgba(000,1,000,.1) !important;
+}
+
+ul#acc-menu6 li, ul#acc-menu5 li {
+  line-height: 1;
+  width: 100%;
+  box-shadow: none !important;
+	list-style-type: none;
+}
+
+ul#acc-menu6 li a, ul#acc-menu5 li a {
+  padding: 10px 30px !important;
+  width: 100%;
+  font-size: 13px;
+  line-height: 1.3;
+  display: inline-block;
+}
+
+ul#acc-menu6 li a:hover, ul#acc-menu5 li a:hover {
+  background: #a79867;
+  color: #FFF;
+  text-shadow: none;
+}
+.nav_list li a:focus {
+	text-decoration: none !important;
+	color: #003c60 !important;
+}
+
+/* CONTACT AND FAQ ICONS */
+span.glyphicon.icon-phone:before {
+    content: "\e616";
+}
+
+span.glyphicon.icon-question:before {
+    content: "\e618";
+}
+
+span.glyphicon.icon-question.pull-right,
+span.glyphicon.icon-phone.pull-right {
+  font-weight: 600;
+}
+
+span.glyphicon.icon-arrow-down:before {
+  content: "\e61a";
+	color:#003C60!important;
+}
+
+span.glyphicon.icon-arrow-up:before {
+  content: "\e61b";
+	color:#003C60!important;
+}
+
+/* Nav break */
+li.mobile-nav-break {
+  height: 10px;
+  -webkit-box-shadow: inset 0 0 3px 1px rgba(0,0,0,.1)!important;
+  box-shadow: inset 0 0 3px 1px rgba(0,0,0,.1)!important;
+  -moz-box-shadow: inset 0 0 3px 1px rgba(0,0,0,.1)!important;
+}
+
+ul.nav_list li:nth-child(2) {
+  -webkit-box-shadow: inset 0 0 3px 1px rgba(0,0,0,.1)!important;
+  -moz-box-shadow: inset 0 0 3px 1px rgba(0,0,0,.1)!important;
+  box-shadow: inset 0 0 3px 1px rgba(0,0,0,.1)!important;
+}
+
+.director-menu ul.nav_list li:nth-child(2),
+.residents-menu ul.nav_list li:nth-child(2),
+.chief-resident-menu ul.nav_list li:nth-child(2) {
+  -webkit-box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  box-shadow: none!important;
+}
+
+.director-menu ul.list-unstyled.nav_list li:first-child,
+.residents-menu ul.list-unstyled.nav_list li:first-child,
+.chief-resident-menu ul.list-unstyled.nav_list li:first-child {
+  -webkit-box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  box-shadow: none!important;
+}
+
+li.nav-home, li.nav-calendar, ul.nursing-menu li.nav-about, ul.veterinary-menu li.nav-about {
+  margin-top: 0;
+  margin-bottom:0;
+  -webkit-box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  box-shadow: none!important;
+}
+
+
+/*===========================
+RESIDENT VIEW
+===========================*/
+span.glyphicon.icon-checkmark:before {
+  content: "\e617";
+}
+
+.visHid {
+	visibility: hidden;
+}
+
+.cal-completed p.calendar_date {
+  color: #A7A8AA!important;
+}
+
+.cal-completed p.calendar_month {
+  font-weight: 100;
+  background:#A7A8AA;
+  text-shadow: 0 -1px 0 #A7A8AA;
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#D2D3CF),to(#A7A8AA));
+  background-image: -webkit-linear-gradient(#D2D3CF,#A7A8AA);
+  background-image: -moz-linear-gradient(#D2D3CF,#A7A8AA),-moz-linear-gradient(#D2D3CF,#A7A8AA);
+  background-image: -o-linear-gradient(#D2D3CF,#A7A8AA),-o-linear-gradient(#D2D3CF,#A7A8AA);
+  background-image: linear-gradient(#D2D3CF,#A7A8AA),linear-gradient(#D2D3CF,#A7A8AA);
+}
+
+
+
+/*===========================
+
+UNORDERED & SEQUENTIAL VIEWS
+===========================*/
+.myAssignments a.my_email {
+	color: #003BAA;
+}
+
+.myAssignments a.my_email:hover {
+	color: #000c14;
+	text-decoration: underline;
+}
+
+.myAssignments .content div h5 {
+	font-size: 12px;
+}
+
+.modal .glyphicon.icon-caret-down.pull-right {
+  color: #003c60 !important;
+}
+
+.seqNumber input {
+  max-width:40px;
+  width:40px;
+}
+
+/* SEQUENTIAL COMPLETION */
+.single-class .flag {
+  margin-right: 24px;
+}
+.grey-bg {
+  background-color: #D8D8D6;
+  background-clip: content-box;
+}
+
+.single-class hr {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+
+.myAssignments .grey-bg h5 {
+  color: #4d4f53;
+}
+
+.myAssignments .single-class h5 {
+  margin-bottom: 0 !important;
+}
+
+.grey-bg img.list-item-thumbnail {
+  -webkit-filter: saturate(40%);
+  -moz-filter: saturate(40%);
+  filter: saturate(40%);
+}
+
+.padding-bottom-15 {
+	padding-bottom: 15px;
+}
+
+.myAssignments .single-class h1 {
+  color: #4D4F53;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 4px;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+}
+
+.myAssignments .single-class .styled_checkbox {
+  left: 2px !important;
+}
+
+.numberz {
+	margin-left: 12px;
+}
+
+/* play icons */
+
+.list-thumb .play-icon {
+  z-index: 999;
+}
+
+/*===========================
+DIRECTOR VIEWS
+===========================*/
+
+.my_assign .list-items .glyphicon {
+  font-size: 15px;
+  top: 8px;
+  float:right;
+  margin-right: 3px;
+}
+
+.myAssignments input.form-control {
+  width: 100% !important;
+}
+
+/* ASSIGN TO ACCORDIONS */
+.my_assign .panel-group .panel-default > .panel-heading,
+.my_assign .panel-group .panel-default:nth-child(even) .panel-heading {
+  background: #DCDDDA;
+  transition:background .1s ease;
+  margin-bottom: 2px;
+}
+
+.my_assign .panel-group .panel-heading:hover,
+.my_assign .panel-group .panel-default > .panel-heading:hover,
+.my_assign .panel-group .panel-default:nth-child(even) .panel-heading:hover {
+  background: #d2d2d2;
+}
+
+.myAssignments .checkbox.panel-heading {
+  background: none!important;
+  border:none;
+}
+
+
+/* H2 STYLES */
+.how-many-residents {
+  border: 1px solid #D5D6D2;
+}
+
+.myAssignments textarea {
+  width: 100% !important;
+  height: 120px;
+}
+
+.myAssignments h2.grayed {
+  font-weight: bold;
+  font-size: 14px!important;
+  color: #A7A8AA;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom:10px;
+  text-shadow: none;
+}
+
+/* Button a fixes */
+
+.my_assign button a {
+  color: #fff!important;
+  padding: 3px 10px;
+  min-height: 30px;
+}
+
+.my_assign button a:hover {
+  text-decoration:none;
+}
+
+
+/* RADIO TARGETS FOR JS */
+.myAssignments .displayNoneSon {
+  display: none !important;
+}
+
+.icon-trash:before {
+    content: "\e619";
+}
+
+.padding-top-30 {
+  padding-top: 30px;
+}
+
+.my_assign .how-many-residents button.btn.btn-info.btn-info-sm {
+  min-height: 30px!important;
+  height: auto!important;
+  white-space: normal;
+  padding: 3px 10px;
+}
+
+/* ================================
+   Manage Residents
+   ================================ */
+
+.my_assign .add-a-resident button {
+  height: 30px;
+  padding: 4px 10px 10px 10px;
+  font-weight: bold;
+}
+
+.my_assign .add-a-resident input {
+  height: 31px;
+  width:100%;
+  padding:0px 10px;
+  border-radius:5px;
+  border:1px solid #D4D5D1;
+}
+
+.my_assign .add-a-resident input,
+.my_assign .add-a-resident button {
+  margin:5px 0px;
+}
+
+div.greyBack {
+  background-color: #d2d2d2 !important;
+}
+/*===========================
+
+MEDIA QUERIES
+===========================*/
+
+/* KNOWLEDGE CENTER DROPDOWN */
+@media only screen and (min-width: 1024px) {
+	ul#acc-menu6 li a, ul#acc-menu5 li a {
+	  padding: 10px 40px !important;
+	}
+}

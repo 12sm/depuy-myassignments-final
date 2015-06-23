@@ -1,0 +1,137 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-unui6m');
+	src:url('fonts/icomoon.eot?#iefix-unui6m') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-unui6m') format('woff'),
+		url('fonts/icomoon.ttf?-unui6m') format('truetype'),
+		url('fonts/icomoon.svg?-unui6m#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-trash:before {
+	content: "\e619";
+}
+
+.icon-arrow-left:before {
+	content: "\e614";
+}
+
+.icon-arrow-right:before {
+	content: "\e615";
+}
+
+.icon-dog:before {
+	content: "\e611";
+}
+
+.icon-horse:before {
+	content: "\e613";
+}
+
+.icon-ecomm:before {
+	content: "\e612";
+}
+
+.icon-cal:before {
+	content: "\e604";
+}
+
+.icon-search:before {
+	content: "\e600";
+}
+
+.icon-profile:before {
+	content: "\e601";
+}
+
+.icon-star:before {
+	content: "\e602";
+}
+
+.icon-home:before {
+	content: "\e603";
+}
+
+.icon-play:before {
+	content: "\e605";
+}
+
+.icon-list-view:before {
+	content: "\e606";
+}
+
+.icon-gal-view:before {
+	content: "\e607";
+}
+
+.icon-share:before {
+	content: "\e608";
+}
+
+.icon-banner:before {
+	content: "\e609";
+}
+
+.icon-info:before {
+	content: "\e60a";
+}
+
+.icon-download:before {
+	content: "\e60b";
+}
+
+.icon-plus:before {
+	content: "\e60c";
+}
+
+.icon-caret-left:before {
+	content: "\e60d";
+}
+
+.icon-caret-right:before {
+	content: "\e60e";
+}
+
+.icon-caret-down:before {
+	content: "\e60f";
+}
+
+.icon-caret-up:before {
+	content: "\e610";
+}
+
+.icon-phone:before {
+	content: "\e616";
+}
+
+.icon-checkmark:before {
+	content: "\e617";
+}
+
+.icon-question:before {
+	content: "\e618";
+}
+
+.icon-arrow-down:before {
+	content: "\e61a";
+}
+
+.icon-arrow-up:before {
+	content: "\e61b";
+}
+
